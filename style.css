@@ -4,14 +4,40 @@ body{
   background-position: center;
   background-size: cover;
 }
+
 .nav{
     list-style-type: none;
+    padding: 0 110px;
 }
 .nav li{
     display: inline-block;
     color: white;
-    padding: 2px;
+   padding: 0px 15px;
+   font-size: 18px;
 }
 .navItems{
     float: right;
+    padding-top: 15px;
+}
+.welcome{
+    height: 50vh;
+    width: 650px;
+    text-align: center;
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcomeText p{
+    font-size: 22px;
+}
+.welcomeText h1{
+    font-size: 76px;
+}
+.buttonBox{
+    display: inline-block;
+}
+.button{
+    width: 300px;
 }
