@@ -1,0 +1,17 @@
+body{
+ background-image: url("drew-coffman-1872.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.nav{
+    list-style-type: none;
+}
+.nav li{
+    display: inline-block;
+    color: white;
+    padding: 2px;
+}
+.navItems{
+    float: right;
+}
