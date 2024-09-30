@@ -1,13 +1,22 @@
-body{
+.section1{
  background-image: url("drew-coffman-1872.jpg");
   height: 100vh;
-  background-position: center;
+  background-position:center;
   background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
 }
 
 .nav{
     list-style-type: none;
     padding: 0 110px;
+    /* margin: 0; */
 }
 .nav li{
     display: inline-block;
@@ -35,9 +44,76 @@ body{
 .welcomeText h1{
     font-size: 76px;
 }
-.buttonBox{
+.buttonBoxL{
     display: inline-block;
+    background-color: rgb(142,119,84);
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-color: rgb(142,119,84);
+    border-radius: 5px;
+    border-style:solid;
+}
+.buttonBoxC{
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-color: white;
+    border-radius: 5px;
+    border-style:solid;
 }
 .button{
-    width: 300px;
+    transition-duration: 0.4s;
 }
+.buttonBoxC:hover{
+    background-color: white;
+    color:rgba(51, 51, 51);
+}
+.buttonBoxL:hover{
+    background-color: white;
+    color:rgba(51, 51, 51);
+    border-color: white;
+}
+.section2{
+    margin: 100px 150px;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.photo, .group {
+    display: inline-block;
+    vertical-align: top; /* Align elements */   
+}
+.group li{
+    list-style-type: none;
+    color:rgb(104,104,104);
+    margin: 10px 5px;
+}
+.group p{
+    color:rgb(104,104,104);
+}
+.group h1{
+    color: rgb(48,48,48);
+}
+.group img{
+    border-radius: 100%;
+    border-color: rgb(230, 230,230);
+    border-style: solid;
+    display: inline-block;
+    vertical-align: center;
+}
+.group{
+    width:500px;
+    margin-left: 50px;
+}
+
